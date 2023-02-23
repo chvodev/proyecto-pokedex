@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
 
-html {
+body {
   font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -10,8 +10,34 @@ html {
 
 /* Carrousel */
 .carousel-item img {
-  height: 40rem;
+  height: 45rem;
   object-fit: contain;
-  width: 100%;
 }
 /* Carrousel */
+
+/* Card Pokemon */
+#pokemon-cards p {
+  font-size: 20px;
+  color: white;
+}
+
+#pokemon-cards h5 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+}
+
+#pokemon-cards .card:hover {
+  transform: rotate(-2deg);
+  transition: 0.2s all ease-out;
+}
+/* Card Pokemon */
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  height:auto;
+  letter-spacing: 0.06rem;
+}
+/* Footer */
