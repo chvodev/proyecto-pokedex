@@ -87,7 +87,7 @@
     <main class="min-vh-100">
       <!-- Carrousel -->
       <div class="container my-5">
-        <section id="carrouselBanners" class="carousel slide">
+        <section id="carrouselBanners" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button
               type="button"
@@ -111,46 +111,28 @@
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="2000">
               <img
                 src="/assets/carrousel/carrousel1.jpg"
-                class="img-fluid"
+                class="d-block w-100"
                 alt="Carrousel1"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1000">
               <img
                 src="/assets/carrousel/carrousel3.jpg"
-                class="img-fluid"
+                class="d-block w-100"
                 alt="Carrousel2"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="900">
               <img
                 src="/assets/carrousel/carrousel2.jpg"
-                class="img-fluid"
+                class="d-block w-100"
                 alt="Carrousel3"
               />
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carrouselBanners"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carrouselBanners"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </section>
       </div>
       <!-- Carrousel Fin -->
@@ -321,7 +303,7 @@
       </section>
       <!-- Card Pokemon Fin -->
     </main>
-    <footer class=" border-top text-white text-center fs-5 my-0">
+    <footer class=" border-top text-white text-center fs-5">
       &copy; Todos los derechos reservados
     </footer>
     <script
