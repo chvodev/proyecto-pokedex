@@ -3,3 +3,15 @@
 html {
   font-family: 'Roboto Flex', sans-serif;
 }
+
+
+/* Navbar */
+/* Navbar */
+
+/* Carrousel */
+.carousel-item img {
+  height: 40rem;
+  object-fit: contain;
+  width: 100%;
+}
+/* Carrousel */
